@@ -4,6 +4,13 @@
 
 int main(){
   int i,total=0,k=0;
+  
+  // 名前を聞く
+   char str[8];
+  printf("What is your name?");
+  scanf("%s",str);
+  printf("Hello, John!");
+  
 
         srand((unsigned int)time(NULL));
 
