@@ -5,6 +5,11 @@
 int main(){
   int i,total=0,k=0;
 
+  char str[8];
+  printf("What is your name?");
+  scanf("%s",str);
+  printf("Hello, %s!",str);
+
         srand((unsigned int)time(NULL));
 
         for(i=0; i<2; i++){
@@ -15,6 +20,9 @@ int main(){
 
         printf("Total value: %d\n",total);
 
+        if(total>=7)
+          printf("%s won!\n",str);
+          else
+        printf("%s lose!\n",str);
+
 }
-
-
